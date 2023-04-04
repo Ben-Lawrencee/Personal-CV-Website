@@ -1,0 +1,58 @@
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: $text;
+    font-size: 1rem;
+    text-align: left;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+.text-bubble {
+    background-color: rgba($primary, .8);
+
+    width: max-content;
+
+    padding: 5px 20px;
+    margin-block: 10px;
+
+    border-radius: 1em 1em 1em 0;
+}
+
+a:has(img) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    
+
+    text-decoration: none;
+    color: inherit;
+    
+    border: 1px solid white;
+    border-radius: 1em;
+    
+    padding-block: 2px;
+    padding-inline: 8px;
+
+    margin-inline: 10px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.bolden {
+    font-weight: 600;
+    color: white;
+}
