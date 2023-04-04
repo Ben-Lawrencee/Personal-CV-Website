@@ -40,7 +40,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  width: 100dvw;
+  width: 100dvw; //Override with device view width
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 
 main {
   width: 50vw;
-  width: 50dvw;
+  width: 50dvw; //Override with device view width
   min-width: 400px;
   $side-margin: 20vw;
   margin-inline: $side-margin;
@@ -66,7 +66,7 @@ main {
 section {
   min-height: 600px;
   margin-block: 16vh;
-  margin-block: 16dvh;
+  margin-block: 16dvh; //Override with device view height
 }
 
 ::-webkit-scrollbar {

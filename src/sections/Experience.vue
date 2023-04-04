@@ -13,7 +13,7 @@ export default {
     components: { Timeline },
     data() {
         return {
-            entries: [
+            entries: [ //Months start at index 0.
                 {
                     startDate: new Date(2022, 2), // "Mar 2022"
                     endDate: null,

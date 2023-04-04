@@ -14,7 +14,8 @@
                 <button>
                     <img src="@/assets/education.svg"/>
                 </button>
-                <!-- <button>
+                <!-- Potentially adding Projects -->
+                <!-- <button> 
                     <img src="@/assets/projects.svg"/>
                 </button> -->
             </nav>
@@ -60,7 +61,7 @@ aside {
     --right-padding: 10px;
     padding-inline: var(--right-padding);
 
-    --svg-size: min(2.2rem, 40px);
+    --svg-size: min(1.8rem, 40px);
     --blade-inset: calc(var(--svg-size) / 2 + 7px);
 
     .title {
@@ -123,23 +124,22 @@ aside {
 
 button {
     position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    width: min-content;
+
     text-align: right;
     padding: 6px;
     cursor: pointer;
-
-    width: min-content;
     
     border: 2px solid $primary;
     border-radius: 100%;
 
     background-color: $dark;
-}
-
-button:has(img) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
 }
 
 button img {
