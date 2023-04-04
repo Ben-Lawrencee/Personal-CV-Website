@@ -126,52 +126,6 @@ export default {
         margin-bottom: 70px;
     }
 
-    /*.graphic {
-        align-self: flex-start;
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        width: 40px;
-        height: 40px;
-        aspect-ratio: 1 / 1;
-        
-        user-select: none;
-        border-radius: 50%;
-        border: 2px solid $primary;
-
-        cursor: pointer;
-
-        &::after {
-            content: '';
-            
-            position: absolute;
-            left: 100%;
-            top: calc(50% - 1px);
-
-            height: 2px;
-            width: 30px;
-            
-            background: linear-gradient(to right, $primary, transparent);
-        }
-
-        img {
-            width: 34px;
-            height: 34px;
-
-            transition: rotate 200ms;
-            border-radius: inherit;
-            background-color: $primary;
-        }
-
-        &.closed img {
-            rotate: -180deg;
-        }
-    }*/
-
     .attributes {
         position: relative;
         display: flex;
@@ -209,7 +163,7 @@ export default {
             align-items: center;
             gap: 10px;
 
-            padding-inline: 10px;
+            padding-inline: 20px;
             padding-block: 2px;
 
             border: 2px solid $secondary;
